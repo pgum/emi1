@@ -7,9 +7,10 @@ class TestRzutyKostka(unittest.TestCase):
     def test_rzutNieWiekszyNiz6(self):
         self.assertLess(game.rzut(), 7)
 
-    #przy aktualnej "implementacji" ten test nie przejdze :(
+    #teraz przechodzi
     def test_rzutNieMniejszyNiz1(self):
         self.assertGreater(game.rzut(), 0)
+    #po tych dwoch testach wiemy ze pojedynczy rzut koscia nie daje debilnych wynikow typu -1
 
 if __name__ == '__main__':
     unittest.main()
