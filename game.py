@@ -1,4 +1,5 @@
+#super implementacja rzutu kostka, zeby tylko ruszylo
 def rzut():
-    pass
+    return 0
 
 
