@@ -14,14 +14,25 @@ po niej powinno pojawić się `(emi1)` na linii komend. Ja mam tak:
 Kod, który napiszesz odpalisz pod Python 3 i 2.7.
 
 ## Struktura pracy
-Wszystko co robisz jako programista zamyka się w słowie "tłumaczenie". Programista tłumaczy pewien zbiór "chciejstw" określonych ludzi - w rzeczywistości nazywa się taki zbiór zamierzonych funkcji - wymaganiami (requirements, specification albo specs) - na kod. Kod to nie jest sam program, który robi zamierzoną funkcję, ale też testy, które potwierdzają, że program działa. My napiszemy tylko unit testy - UTki, ale w większych projektach robi się też testy wyższego poziomu, nvm.  
-Musimy zacząć zawsze od zrozumienia co chcemy zrobić, czyli zająć się tym co powiedzieli do nas "ludzie od chciejstw".
+Wszystko co robisz jako programista zamyka się w słowie "tłumaczenie".  
+Programista tłumaczy pewien zbiór "chciejstw" określonych ludzi - w rzeczywistości nazywa się taki zbiór zamierzonych funkcji - wymaganiami (requirements, specification albo specs) - na kod.  
+Kod to nie jest sam program, który robi zamierzoną funkcję, ale też testy, które potwierdzają, że program działa. My napiszemy tylko unit testy - UTki, ale w większych projektach robi się też testy wyższego poziomu, nvm.  
+Musimy zacząć zawsze od zrozumienia co chcemy zrobić, czyli zająć się tym co powiedzieli do nas "ludzie od chciejstw".  
+
 ### Ludzie od chciejstw - co mamy zrobić
 
-zadanie:   napisz prostą grę w kości. Zasady: - gra kończy się po 3 rundach - jedna runda składa się z dwóch ruchów, jeden ruch to rzut kośćmi przez gracza, drugi ruch to rzut kośćmi przez komputer - każdy z graczy rzuca dwiema kostkami sześciościennymi (można wyrzycić od 1 do 6) - po każdym ruchu gracza należy zsumować wynik wylosowanych oczek z poprzednimi, tak, żeby na koniec gry (po 3 rundach) dostać sumę wszystkich wyrzuconych oczek - wygrywa ten, kto na koniec trzeciej rundy będzie miał więcej oczek - możliwy jest remis +(bonus dla ambitnych) - w przypadku remisu należy rozpocząć grę od nowa (ponownie rozegrać 3 rundy)
+zadanie:   napisz prostą grę w kości.  
+Zasady: 
+- gra kończy się po 3 rundach  
+- jedna runda składa się z dwóch ruchów: jeden ruch to rzut kośćmi przez gracza, drugi ruch to rzut kośćmi przez komputer
+- każdy z graczy rzuca dwiema kostkami sześciościennymi (można wyrzycić od 1 do 6) 
+- po każdym ruchu gracza należy zsumować wynik wylosowanych oczek z poprzednimi, tak, żeby na koniec gry (po 3 rundach) dostać sumę wszystkich wyrzuconych oczek 
+- wygrywa ten, kto na koniec trzeciej rundy będzie miał więcej oczek 
+- możliwy jest remis +(bonus dla ambitnych) 
+- w przypadku remisu należy rozpocząć grę od nowa (ponownie rozegrać 3 rundy)
 
 ### Słowa słowa słowa
-Słowa kluczowe :)
+Słowa kluczowe:
 
 ## najpierw UTki, potem kod!
 Jak chcesz sobie poczytać to tutaj masz [artykuł](http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137) co to.
