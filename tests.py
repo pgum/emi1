@@ -1,9 +1,10 @@
 import unittest
 import game
 
-def test_czyIstniejeFunkcjaRzut():
-    game.rzut()
+class TestRzutyKostka(unittest.TestCase):
 
-def test_rzutNieWiekszyNiz6():
-    assert(game.rzut() < 7)
+    def test_rzutNieWiekszyNiz6(self):
+        self.assertLess(7, game.rzut())
 
+if __name__ == '__main__':
+    unittest.main()
