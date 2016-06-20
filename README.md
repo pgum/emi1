@@ -49,3 +49,14 @@ Plusy: Nie musimy bawić się ręcznie i sprawdzać czy wszystko działa, tylko 
 Minusy: Więcej pisania.  
 Więcej plusów: Powoduje że w kodzie będzie mniej bugów, latwiej sie go sprawdza, jest to standard w branży i dobra praktyka
 
+## Komendy
+Po zmianie w kodzie:  
+`python tests.py`
+
+Commitowanie:  
+`git add __pliki__`
+`git commit -m "opis zmiany"`
+`git push`
+
+
+
