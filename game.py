@@ -1,5 +1,4 @@
+import random
 #super implementacja rzutu kostka, zeby tylko ruszylo
 def rzut():
-    return 0
-
-
+    return random.randrange(6)+1
