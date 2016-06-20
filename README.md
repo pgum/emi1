@@ -33,6 +33,14 @@ Zasady:
 
 ### Słowa słowa słowa
 Słowa kluczowe:
+* gra = 3 rundy  
+* runda = dwa ruchy - gracza i komputera  
+* ruch = Dodać wynik rzutu 1k6 [1k6 to kostka do gry](https://pl.wikipedia.org/wiki/Ko%C5%9B%C4%87_do_gry#Nazewnictwo) do sumy poprzednich rzutów gracza
+* wygrywa ten kto ma większą sumę  
+* remis = równa liczba oczek = gra jeszcze raz
+
+### Po co nam to?
+Teraz mamy zasady, które łatwo przedstawić w postaci kodu.
 
 ## najpierw UTki, potem kod!
 Jak chcesz sobie poczytać to tutaj masz [artykuł](http://code.tutsplus.com/tutorials/beginning-test-driven-development-in-python--net-30137) co to.
